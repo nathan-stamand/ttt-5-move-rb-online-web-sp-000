@@ -7,4 +7,4 @@ board = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 puts "Welcome to Tic Tac Toe!"
 puts "Choose your position!"
 input = gets.strip.to_i
-input = board[input]
+index = board[input]
