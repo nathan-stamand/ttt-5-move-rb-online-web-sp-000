@@ -7,5 +7,5 @@ board = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 puts "Welcome to Tic Tac Toe!"
 puts "Choose your position!"
 input = gets.strip
-input_to_integer(input)
+input_to_index(input)
 
